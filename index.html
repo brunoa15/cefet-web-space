@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Exploração Espacial</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Space+Mono">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?famifly=Lato|Space+Mono">
     <link rel="stylesheet" href="estilos.css">
     <link rel="shortcut icon" href="images/favicon.png">
   </head>
@@ -27,8 +27,8 @@
              dos parágrafos -->
         <h1>Sobre Aliens</h1>
         <h2>De onde eles vêm</h2>
-        <p>
-          <button class="botao-expandir-retrair" type="button">+</button>
+        <p id="p1">
+          <button id="bt1" onclick="btclick('bt1','p1')" class="botao-expandir-retrair" type="button">+</button>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in
           dignissim augue. Nunc a erat ac nisl imperdiet dapibus sit amet
           in ipsum. Suspendisse scelerisque in dui in placerat. Praesent
@@ -42,8 +42,8 @@
           nostra, per inceptos himenaeos.
         </p>
         <h2>O que eles querem</h2>
-        <p>
-          <button class="botao-expandir-retrair" type="button">+</button>
+        <p id="p2">
+          <button id="bt2" onclick="btclick('bt2','p2')" class="botao-expandir-retrair" type="button">+</button>
           Cras velit mauris, suscipit ac blandit sit amet, scelerisque eget
           sem. Aenean purus leo, tincidunt consectetur libero id, euismod
           ultrices diam. Nam erat purus, faucibus ut nisl in, facilisis
@@ -58,8 +58,8 @@
           mauris nulla, eget sagittis sem molestie nec.
         </p>
         <h2>Para onde eles vão</h2>
-        <p>
-          <button class="botao-expandir-retrair" type="button">+</button>
+        <p id="p3">
+          <button id="bt3" onclick="btclick('bt3','p3')" class="botao-expandir-retrair" type="button">+</button>
           Vestibulum auctor orci lacus, sit amet pretium mauris viverra
           nec. Nullam eu maximus augue. Phasellus in metus sit amet sem dapibus
           iaculis ut at odio. Cras turpis dui, lacinia non posuere quis,
@@ -89,5 +89,6 @@
     </main>
     <script src="navegacao.js"></script>
     <script src="exercicio2.js"></script>
+    <script src="exercicio1.js"></script>
   </body>
 </html>
